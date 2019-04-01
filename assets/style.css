@@ -1,0 +1,124 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+/* ----------------------------------------Parallax effect */
+.theband,
+.music,
+.photos,
+.videos {
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.theband {
+    background-image: url(/assets/images/artist-band-bass-92080.jpg);
+    min-height: 100%;
+}
+
+.music {
+    background-image: url(/assets/images/cassette-cassette-tape-music-92083.jpg);
+    min-height: 40%;
+}
+
+.photos {
+    background-image: url(/assets/images/box-memories-nostalgic-5842.jpg);
+    min-height: 40%;
+}
+
+.videos {
+    background-image: url(/assets/images/mobile-phone-recording-screen-1755086.jpg);
+    min-height: 40%;
+}
+
+.section {
+    text-align: center;
+    padding: 50px;
+    80px;
+}
+
+.textband {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+
+.textband .border {
+    background-color: #111;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+@media(max-width:568px){
+  .theband, .music, .photos, .videos{
+      background-attachment: scroll;
+  }
+}
+
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
