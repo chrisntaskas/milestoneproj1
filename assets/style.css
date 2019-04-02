@@ -1,3 +1,5 @@
+
+/* ----------------------------------------body */
 body,
 html {
     height: 100%;
@@ -8,7 +10,9 @@ html {
     line-height: 1.8em;
     color: #666;
 }
+
 /* ----------------------------------------Parallax effect */
+
 .theband,
 .music,
 .photos,
@@ -63,11 +67,60 @@ html {
     color: #FFFFFF;
     padding: 20px;
 }
+.textmusic {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
 
-@media(max-width:568px){
-  .theband, .music, .photos, .videos{
-      background-attachment: scroll;
-  }
+.textmusic .border {
+    background-color: #111;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.textphotos {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+
+.textphotos .border {
+    background-color: #111;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.textvideos {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+
+.textvideos .border {
+    background-color: #111;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+
+@media(max-width:568px) {
+    .theband,
+    .music,
+    .photos,
+    .videos {
+        background-attachment: scroll;
+    }
 }
 
 
